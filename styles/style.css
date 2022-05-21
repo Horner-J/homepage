@@ -18,8 +18,18 @@
 
 }
 
+body html {
+  height: 100%;
+}
+.body-image {
+  background-image: url(../images/milky-way.jpg);
+  height: 100%;
+  width: 100%;
+  background-position: center;
+}
 .header {
   background-color: var(--dark-background);
+  opacity: 75%;
 }
 /* Navbar */
 .nav {
@@ -48,7 +58,7 @@
 .hero {
   display: flex;
   justify-content: center;
-  margin: 10px 50px
+  padding: 100px 15%
 }
 
 .hero-text h2 {
@@ -63,5 +73,23 @@
 }
 
 .hero-profile {
-  background-color: var(--grey-text);
+  /* background-color: var(--grey-text);
+  padding: 50px 10%; */
+  
+}
+
+.hero-text button {
+  background-color: var(--button);
+  border: none;
+  color: var(--light-text);
+  border-radius: 5px;
+  width: 75px;
+  height: 30px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.hero-profile img {
+  max-width: 55%;
+  height: auto;
 }
