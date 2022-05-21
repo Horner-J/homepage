@@ -1,28 +1,67 @@
-body, html {
-    height: 100%;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat&display=swap');
+/* Root/variables */
+:root {
+  --dark-background: #1F2937;
+  --light-background: #E5E7EB;
+  --button: #3882F6;
+  --light-text: #F9FAF8;
+  --dark-text: #1F2937;
+  --grey-text: #E5E7EB;
 }
 
-/* The hero image */
-.hero-image {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/profile-bw.png");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 
-  /* Set a specific height */
-  height: 100%;
-
-  /* Position and center the image to scale nicely on all screens */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
 }
 
-/* Place text in the middle of the image */
-.hero-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
+.header {
+  background-color: var(--dark-background);
+}
+/* Navbar */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 15px;
+}
+
+.nav span {
+  color: var(--light-text);
+  justify-content: left;
+  margin-left: 10px;
+}
+
+.nav ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: var(--grey-text);
+  padding: 15px 0 15% 15px;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  margin: 10px 50px
+}
+
+.hero-text h2 {
+  font-size: 30px;
+  color: var(--light-text);
+  font-weight: bolder;
+}
+
+.hero-text p {
+  font-size: 15px;
+  color: var(--grey-text);
+}
+
+.hero-profile {
+  background-color: var(--grey-text);
 }
