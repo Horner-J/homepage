@@ -222,7 +222,7 @@ ul.social-icons {
 	background-color: var(--light-text);
 }
 
-.fa-google-plus {
+.fa-envelope {
 	padding:10px 10px 7px 10px;
 	-o-transition:.5s;
   	-ms-transition:.5s;
@@ -232,6 +232,6 @@ ul.social-icons {
   	background-color: #322f30;
 }
 
-.fa-google-plus:hover {
+.fa-envelope:hover {
 	background-color: var(--light-text);
 }
