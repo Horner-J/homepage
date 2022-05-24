@@ -69,7 +69,7 @@ body html {
 } */
 
 .hero-text h2 {
-  font-size: 30px;
+  font-size: 1.5em;
   color: var(--light-text);
   font-weight: bolder;
 }
@@ -80,7 +80,7 @@ body html {
 
 }
 .hero-text p {
-  font-size: 15px;
+  font-size: 1em;
   color: var(--grey-text);
 }
 
