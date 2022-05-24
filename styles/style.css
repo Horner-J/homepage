@@ -33,7 +33,7 @@ body html {
 .nav {
   display: flex;
   justify-content: space-between;
-  margin-right: 15px;
+  margin-right: 5px;
   color: var(--light-text);
 }
 
