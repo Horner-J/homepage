@@ -61,7 +61,7 @@ body html {
 .hero {
   display: flex;
   justify-content: flex-start;
-  padding: 60% 10% 40% 5%;
+  padding: 30% 10% 70% 1%;
   
 }
 
@@ -73,14 +73,16 @@ body html {
   color: var(--light-text);
   font-weight: bolder;
 }
+
 .hero-text > p:hover {
+	
   color: var(--light-text);
   /* font-size: 18px; */
   transition: 1s;
 
 }
 .hero-text p {
-  font-size: 1rem;
+  font-size: 1.25rem;
   color: var(--grey-text);
 }
 
@@ -101,7 +103,7 @@ body html {
 }
 
 .hero-profile img {
-  max-width: 55%;
+  max-width: 65%;
   height: auto;
 }
 
@@ -237,8 +239,12 @@ ul.social-icons {
 }
 
 @media (min-width: 1200px) {
-	.hero-text > p {
+
+	.hero-text h2 {
 		font-size: 2rem;
+	}
+	.hero-text > p {
+		font-size: 1.5rem;
 	}
 
 }
