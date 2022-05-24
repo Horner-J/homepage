@@ -91,12 +91,13 @@ h1 {
   color: var(--grey-text);
 }
 
-.hero-image:hover {
+/* .hero-image:hover {
 	border: solid 2px var(--light-text);
-	transition: 500ms
-}
+	transition: 500ms;
+	filter: grayscale(.5)
+} */
 
-.hero-text button {
+/* .hero-text button {
   background-color: var(--light-text);
   border: none;
   color: var(-grey-text);
@@ -105,11 +106,17 @@ h1 {
   height: 50px;
   font-size: 14px;
   font-weight: bold;
-}
+} */
 
 .hero-profile img {
   max-width: 65%;
   height: auto;
+  filter: grayscale(1);
+}
+
+.hero-profile img:hover {
+	filter: grayscale(0);
+	transition: 500ms;
 }
 
 h1,
