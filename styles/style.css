@@ -69,18 +69,18 @@ body html {
 } */
 
 .hero-text h2 {
-  font-size: 1.5em;
+  font-size: 1.5rem;
   color: var(--light-text);
   font-weight: bolder;
 }
 .hero-text > p:hover {
   color: var(--light-text);
   /* font-size: 18px; */
-  transition: 150ms;
+  transition: 1s;
 
 }
 .hero-text p {
-  font-size: 1em;
+  font-size: 1rem;
   color: var(--grey-text);
 }
 
@@ -234,4 +234,11 @@ ul.social-icons {
 
 .fa-envelope:hover {
 	background-color: var(--light-text);
+}
+
+@media (min-width: 1200px) {
+	.hero-text > p {
+		font-size: 2rem;
+	}
+
 }
