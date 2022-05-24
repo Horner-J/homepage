@@ -70,7 +70,7 @@ body html {
 } */
 
 .hero-text h2 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   color: var(--light-text);
   font-weight: bolder;
 }
@@ -83,7 +83,7 @@ body html {
 
 }
 .hero-text p {
-  font-size: 1.25rem;
+  font-size: 1.rem;
   color: var(--grey-text);
 }
 
@@ -239,7 +239,7 @@ ul.social-icons {
 	background-color: var(--light-text);
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 600px) {
 
 	.hero-text h2 {
 		font-size: 2rem;
