@@ -62,7 +62,7 @@ body html {
 .hero {
   display: flex;
   justify-content: flex-start;
-  padding: 15% 10% 85% 1%;
+  padding: 15% 1% 85% 1%;
   
 }
 
