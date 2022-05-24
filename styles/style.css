@@ -22,7 +22,8 @@
 }
 
 body html {
-  height: 100%;
+  height: 100vh;
+  width: 100vw
 }
 
 .header {
@@ -61,7 +62,7 @@ body html {
 .hero {
   display: flex;
   justify-content: flex-start;
-  padding: 20% 10% 80% 1%;
+  padding: 15% 10% 85% 1%;
   
 }
 
