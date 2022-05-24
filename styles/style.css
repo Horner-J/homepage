@@ -194,7 +194,7 @@ ul.social-icons {
 	background-color: var(--light-text);
 }
 
-.fa-xing {
+.fa-github {
 	padding:10px 12px 7px 11px;
 	-o-transition:.5s;
   	-ms-transition:.5s;
@@ -204,7 +204,7 @@ ul.social-icons {
   	background-color: #322f30;
 }
 
-.fa-xing:hover {
+.fa-github:hover {
 	background-color: var(--light-text);
 }
 
