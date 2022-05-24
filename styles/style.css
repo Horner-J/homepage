@@ -69,6 +69,10 @@ body html {
 /* p > a:hover{
 } */
 
+h1 {
+	font-size: 1.25rem;
+}
+
 .hero-text h2 {
   font-size: 1.25rem;
   color: var(--light-text);
@@ -240,7 +244,9 @@ ul.social-icons {
 }
 
 @media (min-width: 600px) {
-
+	h1 {
+		font-size: 2rem;
+	}
 	.hero-text h2 {
 		font-size: 2rem;
 	}
