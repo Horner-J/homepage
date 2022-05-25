@@ -29,12 +29,19 @@ body html {
 .header {
   background: linear-gradient(to left, #333333 25%,  #202020 75%);
 }
+
+.title:hover {
+	color: var(--grey-text);
+	transition: 500ms;
+}
 /* Navbar */
 .nav {
   display: flex;
   justify-content: space-between;
   margin-right: 5px;
   color: var(--light-text);
+  padding-top: 10px;
+  padding-right: 10px;
 }
 
 .nav span {
@@ -73,12 +80,16 @@ h1 {
 	font-size: 1.25rem;
 }
 
+
 .hero-text h2 {
   font-size: 1.25rem;
   color: var(--light-text);
   font-weight: bolder;
 }
-
+.hero-text h2:hover{
+	color: var(--grey-text);
+	transition: 1s;
+}
 .hero-text > p:hover {
 	
   color: var(--light-text);
@@ -86,6 +97,7 @@ h1 {
   transition: 1s;
 
 }
+
 .hero-text p {
   font-size: 1.rem;
   color: var(--grey-text);
