@@ -16,6 +16,13 @@
   --facebook: #3b5998;
   --envelope: #FF3838;
   --github: #171515;
+  --text-editor-orange: #D7BA7D;
+  --dark-orange: #CE9178;
+  --light-blue-text: #9cdcfe;
+  --light-green-text: #B5CEA8;
+  --dark-blue: 	#569CD6;
+  --purple: #C586C0;
+  --white: #fff;
 }
 
 * {
@@ -35,17 +42,23 @@ body html {
 .header {
   background: linear-gradient(to left, #333333 25%,  #202020 75%);
 }
-
+.title {
+	color: var(--dark-blue);
+}
 .title:hover {
-	color: var(--grey-text);
+	color: var(--light-green-text);
 	transition: 500ms;
+}
+
+.brackets {
+	color: var(--purple);
 }
 /* Navbar */
 .nav {
   display: flex;
   justify-content: space-between;
   margin-right: 5px;
-  color: var(--light-text);
+  /* color: var(--text-editor-orange); */
   padding-top: 10px;
   padding-right: 10px;
 }
@@ -62,13 +75,13 @@ body html {
 
 .nav ul li a {
   text-decoration: none;
-  color: var(--grey-text);
+  color: var(--light-blue-text);
   padding: 15px 0 15% 15px;
 }
 
 .nav ul li a:hover {
   text-decoration: none;
-  color: var(--light-text);
+  color: var(--purple);
   padding: 15px 0 15% 15px;
 }
 
@@ -89,23 +102,23 @@ h1 {
 
 .hero-text h2 {
   font-size: 1.1rem;
-  color: var(--light-text);
+  color: var(--dark-orange);
   font-weight: bolder;
   margin-right: 10%;
 }
 .hero-text h2:hover{
-	color: var(--grey-text);
+	color: var(--purple);
 	transition: 1s;
 }
 .hero-text > p:hover {
-  color: var(--light-text);
+  color: var(--light-green-text);
   /* font-size: 18px; */
   transition: 1s;
 }
 
 .hero-text p {
   font-size: .8rem;
-  color: var(--grey-text);
+  color: var(--text-editor-orange);
   text-align: justify;
   text-justify: inter-word;
   margin-right: 10%;
@@ -131,7 +144,7 @@ h1 {
 .hero-profile img {
   max-width: 65%;
   height: auto;
-  filter: grayscale(1);
+  filter: grayscale(.9);
 }
 
 .hero-profile img:hover {
@@ -181,7 +194,7 @@ ul.social-icons {
 }
 
 .social-icons a {
-	color: #fff; 
+	color: var(--light-blue-text); 
 	text-decoration: none;
 }
 
@@ -198,6 +211,7 @@ ul.social-icons {
 
 .fa-facebook:hover {
 	background-color: var(--facebook);
+	color: var(--dark-blue);
 }
 
 .fa-twitter {
@@ -212,6 +226,9 @@ ul.social-icons {
 
 .fa-twitter:hover {
 	background-color: var(--twitter);
+	color: #fff;
+	
+	
 }
 
 .fa-instagram {
@@ -226,6 +243,7 @@ ul.social-icons {
 
 .fa-instagram:hover {
 	background-color: var(--instagram-red-violet);
+	color: #fff;
 }
 
 .fa-github {
@@ -240,7 +258,7 @@ ul.social-icons {
 
 .fa-github:hover {
 	background-color: var(--github);
-	color: var(--light-text);
+	color: var(--dark-blue);
 	/* border-bottom: solid var(--light-text) 1px; */
 	/* border-left: solid var(--light-text) 1px; */
 }
@@ -257,6 +275,7 @@ ul.social-icons {
 
 .fa-linkedin:hover {
 	background-color: var(--linkedin);
+	color: #fff;
 	/* border-top: solid var(--light-text) 1px; */
 	/* border-right: solid var(--light-text) 1px; */
 }
@@ -273,6 +292,7 @@ ul.social-icons {
 
 .fa-envelope:hover {
 	background-color: var(--envelope);
+	color: #fff;
 }
 
 @media (min-width: 600px) {
