@@ -330,5 +330,14 @@ ul.social-icons {
 }
 
 .curley:hover {
+	color: var(--light-blue-text);
+	transition: 1s;
+}
+
+.title-two {
+	color: var(--light-green-text);
+}
+.title-two:hover {
 	color: var(--dark-blue);
+	transition: 1s;
 }
