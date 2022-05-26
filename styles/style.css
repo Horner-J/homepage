@@ -107,6 +107,7 @@ h1 {
   color: var(--grey-text);
   text-align: justify;
   text-justify: inter-word;
+  margin-right: 10%;
 }
 
 /* .hero-image:hover {
