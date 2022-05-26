@@ -324,3 +324,11 @@ ul.social-icons {
     99%{    color:transparent;  }
     100%{   color: var(--white);    }
 }
+
+.curley {
+	color: var(--purple);
+}
+
+.curley:hover {
+	color: var(--dark-blue);
+}
