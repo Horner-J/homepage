@@ -15,6 +15,7 @@
   --instagram-red-violet: #bc2a8d;
   --facebook: #3b5998;
   --envelope: #FF3838;
+  --github: #171515;
 }
 
 * {
@@ -104,6 +105,8 @@ h1 {
 .hero-text p {
   font-size: 1.rem;
   color: var(--grey-text);
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 /* .hero-image:hover {
@@ -234,7 +237,10 @@ ul.social-icons {
 }
 
 .fa-github:hover {
-	background-color: var(--light-text);
+	background-color: var(--github);
+	color: var(--light-text);
+	/* border-bottom: solid var(--light-text) 1px; */
+	/* border-left: solid var(--light-text) 1px; */
 }
 
 .fa-linkedin {
@@ -249,6 +255,8 @@ ul.social-icons {
 
 .fa-linkedin:hover {
 	background-color: var(--linkedin);
+	/* border-top: solid var(--light-text) 1px; */
+	/* border-right: solid var(--light-text) 1px; */
 }
 
 .fa-envelope {
