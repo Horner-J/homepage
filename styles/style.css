@@ -152,7 +152,7 @@ h1 {
 }
 
 .hero-profile img:hover {
-	filter: blur(10px) opacity(0);
+	filter: blur(15px) opacity(0);
 	transition: 3s;
 }
 
