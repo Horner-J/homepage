@@ -210,7 +210,7 @@ ul.social-icons {
   	-moz-transition:.5s;
   	-webkit-transition:.5s;
   	transition: .5s;
-  	background-color: #322f30;
+  	background-color: var(--vscode-background);
 }
 
 .fa-facebook:hover {
@@ -225,12 +225,12 @@ ul.social-icons {
   	-moz-transition:.5s;
   	-webkit-transition:.5s;
   	transition: .5s;
-  	background-color: #322f30;
+  	background-color: var(--vscode-background);
 }
 
 .fa-twitter:hover {
 	background-color: var(--twitter);
-	color: #fff;
+	color: var(--white);
 	
 	
 }
@@ -242,12 +242,12 @@ ul.social-icons {
   	-moz-transition:.5s;
   	-webkit-transition:.5s;
   	transition: .5s;
-  	background-color: #322f30;
+  	background-color: var(--vscode-background);
 }
 
 .fa-instagram:hover {
 	background-color: var(--instagram-red-violet);
-	color: #fff;
+	color: var(--white);
 }
 
 .fa-github {
@@ -257,12 +257,12 @@ ul.social-icons {
   	-moz-transition:.5s;
   	-webkit-transition:.5s;
   	transition: .5s;
-  	background-color: #322f30;
+  	background-color: var(--vscode-background);
 }
 
 .fa-github:hover {
 	background-color: var(--github);
-	color: var(--dark-blue);
+	color: var(--white);
 	/* border-bottom: solid var(--light-text) 1px; */
 	/* border-left: solid var(--light-text) 1px; */
 }
@@ -274,12 +274,12 @@ ul.social-icons {
   	-moz-transition:.5s;
   	-webkit-transition:.5s;
   	transition: .5s;
-  	background-color: #322f30;
+  	background-color: var(--vscode-background);
 }
 
 .fa-linkedin:hover {
 	background-color: var(--linkedin);
-	color: #fff;
+	color: var(--white);
 	/* border-top: solid var(--light-text) 1px; */
 	/* border-right: solid var(--light-text) 1px; */
 }
@@ -291,12 +291,12 @@ ul.social-icons {
   	-moz-transition:.5s;
   	-webkit-transition:.5s;
   	transition: .5s;
-  	background-color: #322f30;
+  	background-color: var(--vscode-background);
 }
 
 .fa-envelope:hover {
 	background-color: var(--envelope);
-	color: #fff;
+	color: var(--white);
 }
 
 @media (max-width: 600px) {
