@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 @import url(https://fonts.googleapis.com/css?family=Lato);
 @import url(https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
 /* Root/variables */
 :root {
+  --vscode-background :#1e1e1e;
   --dark-background: #202020;
   --dark-background-gradient: #333333
   --light-background: #E5E7EB;
@@ -16,14 +17,20 @@
   --facebook: #3b5998;
   --envelope: #FF3838;
   --github: #171515;
+  --text-editor-orange: #D7BA7D;
+  --dark-orange: #CE9178;
+  --light-blue-text: #9cdcfe;
+  --light-green-text: #B5CEA8;
+  --dark-blue: 	#569CD6;
+  --purple: #C586C0;
+  --white: #fff;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Inconsolata', monospace;
 
 }
 
@@ -33,21 +40,28 @@ body html {
 }
 
 .header {
-  background: linear-gradient(to left, #333333 25%,  #202020 75%);
+  background: var(--vscode-background)
+}
+.title {
+	color: var(--dark-blue);
+}
+.title:hover {
+	color: var(--light-green-text);
+	transition: 500ms;
 }
 
-.title:hover {
-	color: var(--grey-text);
-	transition: 500ms;
+.brackets {
+	color: var(--purple);
 }
 /* Navbar */
 .nav {
   display: flex;
   justify-content: space-between;
   margin-right: 5px;
-  color: var(--light-text);
+  /* color: var(--text-editor-orange); */
   padding-top: 10px;
-  padding-right: 10px;
+  padding-right: 5%;
+  font-size: 1.25rem;
 }
 
 .nav span {
@@ -62,14 +76,15 @@ body html {
 
 .nav ul li a {
   text-decoration: none;
-  color: var(--grey-text);
+  color: var(--light-blue-text);
   padding: 15px 0 15% 15px;
 }
 
 .nav ul li a:hover {
   text-decoration: none;
-  color: var(--light-text);
+  color: var(--purple);
   padding: 15px 0 15% 15px;
+  font-weight: bolder;
 }
 
 .hero {
@@ -83,30 +98,34 @@ body html {
 } */
 
 h1 {
-	font-size: 1.25rem;
+	padding-left: 10px;
+	font-size: 2.25rem;
 }
 
 
 .hero-text h2 {
-  font-size: 1.25rem;
-  color: var(--light-text);
+  font-size: 2.25rem;
+  color: var(--dark-orange);
   font-weight: bolder;
+  margin-right: 10%;
 }
 .hero-text h2:hover{
-	color: var(--grey-text);
+	color: var(--purple);
 	transition: 1s;
+	font-weight: bolder;
 }
 .hero-text > p:hover {
-  color: var(--light-text);
-  /* font-size: 18px; */
-  transition: 1s;
+  color: var(--light-green-text);
+  transition: 1gs;
+  font-weight: 500;
 }
 
 .hero-text p {
-  font-size: 1.rem;
-  color: var(--grey-text);
+  font-size: 1.75rem;
+  color: var(--text-editor-orange);
   text-align: justify;
   text-justify: inter-word;
+  margin-right: 10%;
 }
 
 /* .hero-image:hover {
@@ -129,11 +148,10 @@ h1 {
 .hero-profile img {
   max-width: 65%;
   height: auto;
-  filter: grayscale(1);
 }
 
 .hero-profile img:hover {
-	filter: grayscale(0);
+	filter: grayscale(.8);
 	transition: 500ms;
 }
 
@@ -179,7 +197,7 @@ ul.social-icons {
 }
 
 .social-icons a {
-	color: #fff; 
+	color: var(--light-blue-text); 
 	text-decoration: none;
 }
 
@@ -196,6 +214,7 @@ ul.social-icons {
 
 .fa-facebook:hover {
 	background-color: var(--facebook);
+	color: var(--dark-blue);
 }
 
 .fa-twitter {
@@ -210,6 +229,9 @@ ul.social-icons {
 
 .fa-twitter:hover {
 	background-color: var(--twitter);
+	color: #fff;
+	
+	
 }
 
 .fa-instagram {
@@ -224,6 +246,7 @@ ul.social-icons {
 
 .fa-instagram:hover {
 	background-color: var(--instagram-red-violet);
+	color: #fff;
 }
 
 .fa-github {
@@ -238,7 +261,7 @@ ul.social-icons {
 
 .fa-github:hover {
 	background-color: var(--github);
-	color: var(--light-text);
+	color: var(--dark-blue);
 	/* border-bottom: solid var(--light-text) 1px; */
 	/* border-left: solid var(--light-text) 1px; */
 }
@@ -255,6 +278,7 @@ ul.social-icons {
 
 .fa-linkedin:hover {
 	background-color: var(--linkedin);
+	color: #fff;
 	/* border-top: solid var(--light-text) 1px; */
 	/* border-right: solid var(--light-text) 1px; */
 }
@@ -271,17 +295,21 @@ ul.social-icons {
 
 .fa-envelope:hover {
 	background-color: var(--envelope);
+	color: #fff;
 }
 
-@media (min-width: 600px) {
+@media (max-width: 600px) {
 	h1 {
-		font-size: 2rem;
-	}
-	.hero-text h2 {
-		font-size: 2rem;
-	}
-	.hero-text > p {
 		font-size: 1.5rem;
 	}
+	.hero-text h2 {
+		font-size: 1.25rem;
+	}
+	.hero-text > p {
+		font-size: 1rem;
+	}
+	.nav {
+		font-size: 1rem;
+	}
 
-}
+}	
