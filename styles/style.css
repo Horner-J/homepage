@@ -85,12 +85,13 @@ body html {
   color: var(--purple);
   padding: 15px 0 15% 15px;
   font-weight: bolder;
+  transition: 500ms;
 }
 
 .hero {
   display: flex;
   justify-content: flex-start;
-  padding: 15% 1% 85% 1%;
+  padding: 10% 1% 90% 1%;
   
 }
 
