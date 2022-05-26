@@ -10,6 +10,11 @@
   --light-text: #f4d03f;
   --dark-text: #1F2937;
   --grey-text: #E5E7EB;
+  --linkedin: #0072b1;
+  --twitter: #00ACEE;
+  --instagram-red-violet: #bc2a8d;
+  --facebook: #3b5998;
+  --envelope: #FF3838;
 }
 
 * {
@@ -91,11 +96,9 @@ h1 {
 	transition: 1s;
 }
 .hero-text > p:hover {
-	
   color: var(--light-text);
   /* font-size: 18px; */
   transition: 1s;
-
 }
 
 .hero-text p {
@@ -189,7 +192,7 @@ ul.social-icons {
 }
 
 .fa-facebook:hover {
-	background-color: var(--light-text);
+	background-color: var(--facebook);
 }
 
 .fa-twitter {
@@ -203,7 +206,7 @@ ul.social-icons {
 }
 
 .fa-twitter:hover {
-	background-color: var(--light-text);
+	background-color: var(--twitter);
 }
 
 .fa-instagram {
@@ -217,7 +220,7 @@ ul.social-icons {
 }
 
 .fa-instagram:hover {
-	background-color: var(--light-text);
+	background-color: var(--instagram-red-violet);
 }
 
 .fa-github {
@@ -245,7 +248,7 @@ ul.social-icons {
 }
 
 .fa-linkedin:hover {
-	background-color: var(--light-text);
+	background-color: var(--linkedin);
 }
 
 .fa-envelope {
@@ -259,7 +262,7 @@ ul.social-icons {
 }
 
 .fa-envelope:hover {
-	background-color: var(--light-text);
+	background-color: var(--envelope);
 }
 
 @media (min-width: 600px) {
