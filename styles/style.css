@@ -42,10 +42,12 @@ body html {
 .header {
   background: var(--vscode-background)
 }
-.title {
+.title a {
 	color: var(--dark-blue);
+	text-decoration: none;
+	cursor: crosshair;
 }
-.title:hover {
+.title a:hover {
 	color: var(--light-green-text);
 	transition: 1s;
 }
@@ -78,6 +80,7 @@ body html {
   text-decoration: none;
   color: var(--light-blue-text);
   padding: 15px 0 15% 15px;
+  cursor: crosshair;
 }
 
 .nav ul li a:hover {
@@ -200,6 +203,7 @@ ul.social-icons {
 .social-icons a {
 	color: var(--light-blue-text); 
 	text-decoration: none;
+	cursor: crosshair;
 }
 
 
