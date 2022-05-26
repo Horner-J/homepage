@@ -105,6 +105,8 @@ h1 {
 .hero-text p {
   font-size: 1.rem;
   color: var(--grey-text);
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 /* .hero-image:hover {
@@ -236,6 +238,7 @@ ul.social-icons {
 
 .fa-github:hover {
 	background-color: var(--github);
+	color: var(--light-text);
 	/* border-bottom: solid var(--light-text) 1px; */
 	/* border-left: solid var(--light-text) 1px; */
 }
