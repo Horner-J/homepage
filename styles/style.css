@@ -24,7 +24,7 @@
   --dark-blue: 	#569CD6;
   --purple: #C586C0;
   --white: #fff;
-}
+}S
 
 * {
   margin: 0;
@@ -85,7 +85,7 @@ body html {
   color: var(--purple);
   padding: 15px 0 15% 15px;
   font-weight: bolder;
-  transition: 500ms;
+  transition: 1s;
 }
 
 .hero {
@@ -117,7 +117,7 @@ h1 {
 }
 .hero-text > p:hover {
   color: var(--light-green-text);
-  transition: 1gs;
+  transition: 1s;
   font-weight: 500;
 }
 
