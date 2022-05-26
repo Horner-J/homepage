@@ -15,6 +15,7 @@
   --instagram-red-violet: #bc2a8d;
   --facebook: #3b5998;
   --envelope: #FF3838;
+  --github: #171515;
 }
 
 * {
@@ -234,7 +235,9 @@ ul.social-icons {
 }
 
 .fa-github:hover {
-	background-color: var(--light-text);
+	background-color: var(--github);
+	/* border-bottom: solid var(--light-text) 1px; */
+	/* border-left: solid var(--light-text) 1px; */
 }
 
 .fa-linkedin {
@@ -249,6 +252,8 @@ ul.social-icons {
 
 .fa-linkedin:hover {
 	background-color: var(--linkedin);
+	/* border-top: solid var(--light-text) 1px; */
+	/* border-right: solid var(--light-text) 1px; */
 }
 
 .fa-envelope {
