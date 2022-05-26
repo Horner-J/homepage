@@ -5,7 +5,7 @@
 :root {
   --vscode-background :#1e1e1e;
   --dark-background: #202020;
-  --dark-background-gradient: #333333
+  --dark-background-gradient: #333333;
   --light-background: #E5E7EB;
   --button: #3882F6;
   --light-text: #f4d03f;
@@ -15,7 +15,7 @@
   --twitter: #00ACEE;
   --instagram-red-violet: #bc2a8d;
   --facebook: #3b5998;
-  --envelope: #FF3838;
+  --envelope: #ef4836;
   --github: #171515;
   --text-editor-orange: #D7BA7D;
   --dark-orange: #CE9178;
@@ -47,7 +47,7 @@ body html {
 }
 .title:hover {
 	color: var(--light-green-text);
-	transition: 500ms;
+	transition: 1s;
 }
 
 .brackets {
@@ -85,7 +85,7 @@ body html {
   color: var(--purple);
   padding: 15px 0 15% 15px;
   font-weight: bolder;
-  transition: 500ms;
+  transition: 1s;
 }
 
 .hero {
@@ -117,7 +117,7 @@ h1 {
 }
 .hero-text > p:hover {
   color: var(--light-green-text);
-  transition: 1gs;
+  transition: 1s;
   font-weight: 500;
 }
 
@@ -301,10 +301,10 @@ ul.social-icons {
 
 @media (max-width: 600px) {
 	h1 {
-		font-size: 1.5rem;
+		font-size: 1.25rem;
 	}
 	.hero-text h2 {
-		font-size: 1.25rem;
+		font-size: 1.15rem;
 	}
 	.hero-text > p {
 		font-size: 1rem;
@@ -323,4 +323,21 @@ ul.social-icons {
     60%{    color: transparent; }
     99%{    color:transparent;  }
     100%{   color: var(--white);    }
+}
+
+.curley {
+	color: var(--purple);
+}
+
+.curley:hover {
+	color: var(--light-blue-text);
+	transition: 1s;
+}
+
+.title-two {
+	color: var(--light-green-text);
+}
+.title-two:hover {
+	color: var(--dark-blue);
+	transition: 1s;
 }
