@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 @import url(https://fonts.googleapis.com/css?family=Lato);
 @import url(https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
 /* Root/variables */
 :root {
+  --vscode-background :#1e1e1e;
   --dark-background: #202020;
   --dark-background-gradient: #333333
   --light-background: #E5E7EB;
@@ -29,8 +30,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Inconsolata', monospace;
 
 }
 
@@ -40,7 +40,7 @@ body html {
 }
 
 .header {
-  background: linear-gradient(to left, #333333 25%,  #202020 75%);
+  background: var(--vscode-background)
 }
 .title {
 	color: var(--dark-blue);
@@ -61,6 +61,7 @@ body html {
   /* color: var(--text-editor-orange); */
   padding-top: 10px;
   padding-right: 10px;
+  font-size: 1.1rem;
 }
 
 .nav span {
@@ -144,11 +145,10 @@ h1 {
 .hero-profile img {
   max-width: 65%;
   height: auto;
-  filter: grayscale(.9);
 }
 
 .hero-profile img:hover {
-	filter: grayscale(0);
+	filter: grayscale(.8);
 	transition: 500ms;
 }
 
