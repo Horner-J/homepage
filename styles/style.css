@@ -5,7 +5,7 @@
 :root {
   --vscode-background :#1e1e1e;
   --dark-background: #202020;
-  --dark-background-gradient: #333333
+  --dark-background-gradient: #333333;
   --light-background: #E5E7EB;
   --button: #3882F6;
   --light-text: #f4d03f;
@@ -24,7 +24,7 @@
   --dark-blue: 	#569CD6;
   --purple: #C586C0;
   --white: #fff;
-}S
+}
 
 * {
   margin: 0;
@@ -47,7 +47,7 @@ body html {
 }
 .title:hover {
 	color: var(--light-green-text);
-	transition: 500ms;
+	transition: 1s;
 }
 
 .brackets {
