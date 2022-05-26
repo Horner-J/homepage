@@ -152,8 +152,8 @@ h1 {
 }
 
 .hero-profile img:hover {
-	filter: grayscale(.8);
-	transition: 500ms;
+	filter: blur(10px) opacity(0);
+	transition: 3s;
 }
 
 h1,
