@@ -318,9 +318,9 @@ ul.social-icons {
     animation:blinkingText 1.2s infinite;
 }
 @keyframes blinkingText{
-    0%{     color: var(--purple);    }
-    49%{    color: var(--purple); }
+    0%{     color: var(--white);    }
+    49%{    color: var(--white); }
     60%{    color: transparent; }
     99%{    color:transparent;  }
-    100%{   color: var(--purple);    }
+    100%{   color: var(--white);    }
 }
