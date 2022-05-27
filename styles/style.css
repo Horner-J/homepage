@@ -111,12 +111,12 @@ h1 {
 
 .hero-text h2 {
   font-size: 2.25rem;
-  color: var(--dark-orange);
+  color: var(--purple);
   font-weight: bolder;
   margin-right: 10%;
 }
 .hero-text h2:hover{
-	color: var(--purple);
+	color: var(--dark-blue);
 	transition: 1s;
 	font-weight: bolder;
 }
