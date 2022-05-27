@@ -154,11 +154,12 @@ h1 {
 .hero-profile img {
   max-width: 65%;
   height: auto;
+  filter: blur(15px) opacity(0);
 }
 
 .hero-profile img:hover {
-	filter: blur(15px) opacity(0);
-	transition: 3s;
+	filter: none;
+	transition: 2s;
 }
 
 h1,
