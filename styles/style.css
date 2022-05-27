@@ -24,6 +24,8 @@
   --dark-blue: 	#569CD6;
   --purple: #C586C0;
   --white: #fff;
+  --typewriterSpeed: 6s;
+  --typewriterCharacters: 24;
 }
 
 * {
@@ -49,7 +51,7 @@ body html {
 }
 .title a:hover {
 	color: var(--purple);
-	transition: 500ms;
+	transition: 1s;
 }
 
 .brackets {
@@ -87,7 +89,7 @@ body html {
   text-decoration: none;
   color: var(--purple);
   padding: 15px 0 15% 15px;
-  /* font-weight: bold; */
+  font-weight: bold;
   transition: 500ms;
 }
 
@@ -109,12 +111,12 @@ h1 {
 
 .hero-text h2 {
   font-size: 2.25rem;
-  color: var(--dark-orange);
+  color: var(--purple);
   font-weight: bolder;
   margin-right: 10%;
 }
 .hero-text h2:hover{
-	color: var(--purple);
+	color: var(--dark-blue);
 	transition: 1s;
 	font-weight: bolder;
 }
@@ -338,10 +340,10 @@ ul.social-icons {
 	transition: 1s;
 }
 
-.title-two {
+.typew {
 	color: var(--light-green-text);
 }
-.title-two:hover {
+.typew:hover {
 	color: var(--dark-blue);
 	transition: 1s;
 }

@@ -1,11 +1,20 @@
-const root = ReactDOM.createRoot(document.getElementById('root'));
+var i = 0;
+var txt = 'Professional Problem Solver';
+var speed = 75;
+var blank = ''
+var repeater;
+
+
+
+function mouseLeave() {
+    document.getElementById("demo").innerHTML = blank;
+  }
+
   
-function tick() {
-  const element = (
-    <div>
-      <h1>Hello, world!</h1>
-      <h2>It is {new Date().toLocaleTimeString()}.</h2>
-    </div>
-  );
-  root.render(element);
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
 }
