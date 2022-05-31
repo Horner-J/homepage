@@ -9,7 +9,7 @@ class Overworld {
         image.onload = () => {
             this.ctx.drawImage(image, 0,0)
         };
-        image.src = "/images/maps/DemoLowerFish.png" //map
+        image.src = "/fly-fishing/images/maps/DemoLowerFish.png" //map
 
 
         const x = 5;
@@ -30,7 +30,7 @@ class Overworld {
            32
         )
         }
-        waterShadow.src = "/images/characters/waterShadow.png";
+        waterShadow.src = "/fly-fishing/images/characters/waterShadow.png";
      
 
         const hero = new Image();
@@ -48,7 +48,7 @@ class Overworld {
            )  
         }
 
-        hero.src = "/images/characters/people/fishHero.png";
+        hero.src = "/fly-fishing/images/characters/people/fishHero.png";
     }
 
 

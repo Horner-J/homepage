@@ -42,10 +42,11 @@ body html {
 }
 
 body {
-	overflow: hidden;
+	background: var(--vscode-background);
+	
+	overflow: -moz-hidden-unscrollable;
 }
 .header {
-  background: var(--vscode-background)
 }
 .title a {
 	color: var(--dark-blue);
@@ -354,4 +355,31 @@ ul.social-icons {
 .typew:hover {
 	color: var(--dark-blue);
 	transition: 1s;
+}
+
+.game-container {
+	
+    position: relative;
+    width: 352px;
+    height: 198px;
+    margin: 10% auto;
+    
+    outline: 1px solid white;
+
+
+    transform: scale(3.0) translateY(-15%);
+}
+
+.game-container canvas {
+    image-rendering: pixelated;
+}
+
+.game h1 a {
+	color: var(--dark-blue);
+	text-decoration: none;
+	cursor: crosshair;
+}
+
+.game h1 a:hover {
+	color: var(--purple);
 }
