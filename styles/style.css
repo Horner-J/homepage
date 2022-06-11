@@ -44,7 +44,7 @@ body html {
 body {
 	background: var(--vscode-background);
 	
-	overflow: -moz-hidden-unscrollable;
+	overflow: h;
 }
 .header {
 }
@@ -357,7 +357,7 @@ ul.social-icons {
 	transition: 1s;
 }
 
-.game-container {
+/* .game-container {
 	
     position: relative;
     width: 352px;
@@ -382,4 +382,4 @@ ul.social-icons {
 
 .game h1 a:hover {
 	color: var(--purple);
-}
+} */
